@@ -18,10 +18,10 @@ Our environments and toolkits
 - [thop](https://github.com/Lyken17/pytorch-OpCounter)
 
 
-RPM Problem Setting
+RPM-like Problem Setting
 ------
 
-The goal of each RPM is to choose the correct one (highlighted in red) from eight answer images to fill in the missing one (denoted by ?), making three rows or three columns with similar patterns. Obviously, a subject should recognize diverse visual objects, and then discover abstract relationships among these objects for inference.
+The goal of each RPM-like is to choose the correct one (highlighted in red) from eight answer images to fill in the missing one (denoted by ?), making three rows or three columns with similar patterns. Obviously, a subject should recognize diverse visual objects, and then discover abstract relationships among these objects for inference.
 
 <p align="center">
 <img src="figures/init_rpm.png" width=460 height=390>
@@ -74,9 +74,11 @@ bash run_raven.sh (on RAVENs) or run_pgm.sh (on PGM)
 ```python
 # Example for evaluating models
 # using "--show-detail" to present detailed results for each configuration on RAVENs
-python main.py --dataset-name I-RAVEN --dataset-dir your_dataset_root_dir --gpu 0,1,2,3 \
-               --image-size 80 -a predrnet_raven --num-extra-stages 3 \
-               -e --resume your_checkpoint_dir/model_best.pth.tar \
+python main.py --dataset-name I-RAVEN --dataset-dir your_dataset_root_dir --gpu 0,1,2,3 --fp16 \
+               -a sslvmb --batch-size 128 --num-extra-stages 3 --ckpt ckpts/ -p 50 \
+               -e --resume your_checkpoint_dir/model_best.pth.tar
+
+# or see details in test_raven.sh
 ```
 
 More running commands can be found in "run_raven.sh" and "run_pgm.sh" scripts.
