@@ -1,0 +1,67 @@
+DATASET_ROOT: your_dataset_root_dir/
+
+train_dataset: shape-bongard-v2
+train_dataset_args:
+    root_path: your_dataset_root_dir/ShapeBongard_V2
+    split_file: your_dataset_root_dir/ShapeBongard_V2/ShapeBongard_V2_split.json
+    split: train
+    augment: true
+    image_size: 80
+    box_size: 80
+
+val_dataset: shape-bongard-v2
+val_dataset_args:
+    root_path: your_dataset_root_dir/ShapeBongard_V2
+    split_file: your_dataset_root_dir/ShapeBongard_V2_80x80/ShapeBongard_V2_split.json
+    split: val
+    image_size: 80
+    box_size: 80
+
+tval_ff_dataset: shape-bongard-v2
+tval_ff_dataset_args:
+    root_path: your_dataset_root_dir/ShapeBongard_V2
+    split_file: your_dataset_root_dir/hapeBongard_V2/ShapeBongard_V2_split.json
+    split: test_ff
+    image_size: 80
+    box_size: 80
+
+tval_bd_dataset: shape-bongard-v2
+tval_bd_dataset_args:
+    root_path: your_dataset_root_dir/ShapeBongard_V2
+    split_file: your_dataset_root_dir/ShapeBongard_V2/ShapeBongard_V2_split.json
+    split: test_bd
+    image_size: 80
+    box_size: 80
+
+tval_hd_comb_dataset: shape-bongard-v2
+tval_hd_comb_dataset_args:
+    root_path: your_dataset_root_dir/ShapeBongard_V2_80x80
+    split_file: your_dataset_root_dir/ShapeBongard_V2_80x80/ShapeBongard_V2_split.json
+    split: test_hd_comb
+    image_size: 80
+    box_size: 80
+
+tval_hd_novel_dataset: shape-bongard-v2
+tval_hd_novel_dataset_args:
+    root_path: your_dataset_root_dir/ShapeBongard_V2
+    split_file: your_dataset_root_dir/ShapeBongard_V2/ShapeBongard_V2_split.json
+    split: test_hd_novel
+    image_size: 80
+    box_size: 80
+
+model: sslvmb-bd
+model_args:
+    encoder: None
+    encoder_args: {}
+
+n_way: 2
+n_shot: 6
+n_query: 1
+train_batches: 1000
+ep_per_batch: 256
+
+max_epoch: 60
+optimizer_args: {lr: 0.1, weight_decay: 5.e-4, milestones: [30, 50]}
+optimizer: sgd
+
+visualize_datasets: true
