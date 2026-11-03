@@ -22,7 +22,7 @@ Our SSLvMB
 ----------
 
 <p align="center">
-<img src="figures/SSLvMB_framework.png" width=650 height=250>
+<img src="figures/SSLvMB_framework.png" width=720 height=277>
 </p>
 
 This picture present our novel self-supervised learning method—SSLvMB. A VPM separately transforms each image to features in both RPM and Bongard problems. After that, we explicitly construct pseudo-positive and pseudo-negative samples $\mathcal{G}(\Omega)$ for model training, where each sample contains multiple image features with reduced contexts. Furthermore, a CIM is used to extract abstract concepts within each constructed sample. in CIM, two convolutional layers are used to simultaneously extract concepts along the image axis ($N$, the number of images) and spatial cues along the spatial axis ($L=$ the spatial height $H$ $\times$ width $W$).
@@ -95,7 +95,7 @@ Results
 
 <center>
 <p align="center">
-<img src="figures/h_vs_m.png" width=600 height=275>
+<img src="figures/h_vs_m.png" width=680 height=312>
 </p>
 </center>
 
