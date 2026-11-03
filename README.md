@@ -25,7 +25,7 @@ Our SSLvMB
 <img src="figures/SSLvMB_framework.png" width=600 height=230>
 </p>
 
- This picture present our novel self-supervised learning method—SSLvMB. A VPM separately transforms each image to features in both RPM and Bongard problems. After that, we explicitly construct pseudo-positive and pseudo-negative samples $\mathcal{G}(\Omega)$ for model training, where each sample contains multiple image features with reduced contexts. Furthermore, a CIM is used to extract abstract concepts within each constructed sample. in CIM, two convolutional layers are used to simultaneously extract concepts along the image axis ($N$, the number of images) and spatial cues along the spatial axis ($L=$ the spatial height $H$ $\times$ width $W$).
+This picture present our novel self-supervised learning method—SSLvMB. A VPM separately transforms each image to features in both RPM and Bongard problems. After that, we explicitly construct pseudo-positive and pseudo-negative samples $\mathcal{G}(\Omega)$ for model training, where each sample contains multiple image features with reduced contexts. Furthermore, a CIM is used to extract abstract concepts within each constructed sample. in CIM, two convolutional layers are used to simultaneously extract concepts along the image axis ($N$, the number of images) and spatial cues along the spatial axis ($L=$ the spatial height $H$ $\times$ width $W$).
 
 
 Code environments and toolkits
@@ -49,12 +49,15 @@ Results
 <b>Table 1:</b> In-distribution concept induction on RAVEN, I-RAVEN, RAVEN-FAIR, and PGM-Neutral. 
 </div>
 <br></br>
+
 <div style="font-size: 0.8em;">
+ 
 | Datasets | Model Size | RAVEN | I-RAVEN | RAVEN-FAIR | PGM-Neutral | Avg |
 |:---:     |:---:       |:---:  |:---:    |:---:       |:---:        |:---:      | 
 | NCD      | 11.24 M | 37.0 | 48.2 | 56.0 | 47.6 | 47.2 | 
 | PRD      | 11.18 M | 37.9 | 55.9 | 54.5 | 34.8 | 45.6 |
 | SSLvMB   | 1.27 M  | **83.8 ± 2.9** | **89.7 ± 2.7** | **91.3 ± 2.4** | **64.4 ± 1.2** | **82.3** |
+
 </div>
 
 -----
