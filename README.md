@@ -45,7 +45,7 @@ Results
 -----------
 
 
-<center>
+<div align="center">
 <b>Table 1:</b> In-distribution concept induction on RAVEN, I-RAVEN, RAVEN-FAIR, and PGM-Neutral. 
 
 <small>
@@ -57,7 +57,7 @@ Results
 | SSLvMB   | 1.27 M  | **83.8 ± 2.9** | **89.7 ± 2.7** | **91.3 ± 2.4** | **64.4 ± 1.2** | **82.3** |
 
 </small>
-</center>
+</div>
 
 -----
 
