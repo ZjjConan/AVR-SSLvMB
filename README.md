@@ -44,9 +44,8 @@ As structures vary across different tasks, please refer to the corresponding fol
 Results
 -----------
 
-
 <div align="center">
-<b>Table 1:</b> In-distribution concept induction on RAVEN, I-RAVEN, RAVEN-FAIR, and PGM-Neutral. 
+<b>Table 1:</b> In-distribution concept induction on RAVEN, I-RAVEN, RAVEN-FAIR, and PGM-Neutral.
 
 <br>
 
