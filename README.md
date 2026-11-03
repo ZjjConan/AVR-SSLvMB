@@ -11,7 +11,7 @@ Two Types of Tasks
 ------
 
 <p align="center">
-<img src="figures/avr_tasks.png" width=340 height=430>
+<img src="figures/avr_tasks.png" width=460 height=580>
 </p>
 
 **RPM Task:** Example problems for this task are shown in (a) and (b). The goal is to select the correct image (highlighted in red) from eight choices to fill in the missing panel (denoted by "?"), so that the three rows or three columns exhibit similar patterns. Clearly, a subject must recognize diverse visual objects and then discover the abstract relationships among them in order to draw inferences.
@@ -63,7 +63,6 @@ Results
 <b>Table 2:</b> OOD concept generalization on seven PGM subdatasets.
 
 **Int:** Interpolation, **Ext:** Extrapolation, **H.O:** Held-Out, **P:** Pairs, **TP:** TriplePairs, **LT:** LineType, **SC:** ShapeColor
-<div style="height: 20px;"></div>
 
 | Method | Model Size | Int | Ext | H.O.TP | H.O.T | H.O.P | H.O.LT | H.O.SC | Avg |
 |:---:   |:---: |:---: |:---: |:---:  |:---:   |:---:  |:---:   |:---:   |:---: |
@@ -73,8 +72,6 @@ Results
 
 </div>
 **Correction Note:** In our published paper, the corresponding data for **H.O.LT** and **H.O.P** (across all methods) are inadvertently reversed and should be swapped.
-
-
 
 -----
 
