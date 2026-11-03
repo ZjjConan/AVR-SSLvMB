@@ -71,6 +71,7 @@ Results
 | **SSLvMB** | 1.27 M | **62.1±3.1** | 15.6±0.7 | **43.0±0.9** | **28.6±1.7** | **32.4±2.1** | **21.7±2.1** | 12.6±0.1 | **30.9** |
 
 </div>
+
 **Correction Note:** In our published paper, the corresponding data for **H.O.LT** and **H.O.P** (across all methods) are inadvertently reversed and should be swapped.
 
 -----
