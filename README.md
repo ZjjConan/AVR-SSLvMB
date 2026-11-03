@@ -45,9 +45,7 @@ Results
 -----------
 
 <div align="center">
-<div style="margin-bottom: 50px;">
-    <b>Table 1:</b> In-distribution concept induction on RAVEN, I-RAVEN, RAVEN-FAIR, and PGM-Neutral.
-</div>
+<b>Table 1:</b> In-distribution concept induction on RAVEN, I-RAVEN, RAVEN-FAIR, and PGM-Neutral.
 
 | Datasets | Model Size | RAVEN | I-RAVEN | RAVEN-FAIR | PGM-Neutral | Avg |
 |:---:     |:---:       |:---:  |:---:    |:---:       |:---:        |:---:      | 
@@ -62,7 +60,7 @@ Results
 
 <div align="center">
 <b>Table 2:</b> OOD concept generalization on seven PGM subdatasets.
-<!---->
+
 **Int:** Interpolation, **Ext:** Extrapolation, **H.O:** Held-Out, **P:** Pairs, **TP:** TriplePairs, **LT:** LineType, **SC:** ShapeColor
 
 | Method | Model Size | Int | Ext | H.O.TP | H.O.T | H.O.P | H.O.LT | H.O.SC | Avg |
