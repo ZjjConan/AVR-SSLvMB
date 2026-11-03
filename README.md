@@ -48,7 +48,7 @@ Results
 <div align="center">
 <b>Table 1:</b> In-distribution concept induction on RAVEN, I-RAVEN, RAVEN-FAIR, and PGM-Neutral. 
 
-<div style="font-size: 0.1em;">
+<small>
  
 | Datasets | Model Size | RAVEN | I-RAVEN | RAVEN-FAIR | PGM-Neutral | Avg |
 |:---:     |:---:       |:---:  |:---:    |:---:       |:---:        |:---:      | 
@@ -56,15 +56,17 @@ Results
 | PRD      | 11.18 M | 37.9 | 55.9 | 54.5 | 34.8 | 45.6 |
 | SSLvMB   | 1.27 M  | **83.8 ± 2.9** | **89.7 ± 2.7** | **91.3 ± 2.4** | **64.4 ± 1.2** | **82.3** |
 
-</div>
+</small>
+
 </div>
 
 -----
 
-<center>
+<div align="center">
 <b>Table 2:</b> OOD concept generalization on seven PGM subdatasets.
 
 <small>
+
 Int: Interpolation, Ext: Extrapolation, H.O: Held-Out, P: Pairs, TP: TriplePairs, LT: LineType, SC: ShapeColor
 
 | Method | Model Size | Int | Ext | H.O.TP | H.O.T | H.O.P | H.O.LT | H.O.SC | Avg |
@@ -72,15 +74,16 @@ Int: Interpolation, Ext: Extrapolation, H.O: Held-Out, P: Pairs, TP: TriplePairs
 | NCD | 11.24 M | 47.0 | **24.9** | 33.1 | 13.2 | 29.5 | 19.0 | **13.8** | 25.8 |
 | PRD | 11.18 M | 31.5 | 12.7 | 28.1 | 18.6 | 25.2 | 14.1  | 12.8 | 20.4 |
 | **SSLvMB** | 1.27 M | **62.1±3.1** | 15.6±0.7 | **43.0±0.9** | **28.6±1.7** | **32.4±2.1** | **21.7±2.1** | 12.6±0.1 | **30.9** |
-</center>
+
+</small>
 
 **Correction Note:** In our published paper, the corresponding data for **H.O.LT** and **H.O.P** (across all methods) are inadvertently reversed and should be swapped.
-</small>
+</div>
 
 
 -----
 
-<center>
+<div align="center">
 <b>Table 3:</b> Few-shot concept learning on Bongard-LOGO. 
 
 <small>
@@ -95,7 +98,7 @@ Int: Interpolation, Ext: Extrapolation, H.O: Held-Out, P: Pairs, TP: TriplePairs
 | **SSLvMB** | 1.27 M | Self-supervised | **75.6±0.3** | **93.5±0.7** | **72.7±1.1** | 71.4±0.6 | **78.3** |
 
 </small>
-</center>
+</div>
 
 -----
 <div style="height: 20px;"></div>
