@@ -22,7 +22,7 @@ Our SSLvMB
 ----------
 
 <p align="center">
-<img src="figures/SSLvMB_framework.png" width=600 height=230>
+<img src="figures/SSLvMB_framework.png" width=650 height=250>
 </p>
 
 This picture present our novel self-supervised learning method—SSLvMB. A VPM separately transforms each image to features in both RPM and Bongard problems. After that, we explicitly construct pseudo-positive and pseudo-negative samples $\mathcal{G}(\Omega)$ for model training, where each sample contains multiple image features with reduced contexts. Furthermore, a CIM is used to extract abstract concepts within each constructed sample. in CIM, two convolutional layers are used to simultaneously extract concepts along the image axis ($N$, the number of images) and spatial cues along the spatial axis ($L=$ the spatial height $H$ $\times$ width $W$).
@@ -47,7 +47,7 @@ Results
 
 <div align="center">
 <b>Table 1:</b> In-distribution concept induction on RAVEN, I-RAVEN, RAVEN-FAIR, and PGM-Neutral. 
-<div style="height: 10px;"></div>
+<div style="height: 20px;"></div>
 
 | Datasets | Model Size | RAVEN | I-RAVEN | RAVEN-FAIR | PGM-Neutral | Avg |
 |:---:     |:---:       |:---:  |:---:    |:---:       |:---:        |:---:      | 
@@ -61,8 +61,9 @@ Results
 
 <div align="center">
 <b>Table 2:</b> OOD concept generalization on seven PGM subdatasets.
+
 **Int:** Interpolation, **Ext:** Extrapolation, **H.O:** Held-Out, **P:** Pairs, **TP:** TriplePairs, **LT:** LineType, **SC:** ShapeColor
-<div style="height: 10px;"></div>
+<div style="height: 20px;"></div>
 
 | Method | Model Size | Int | Ext | H.O.TP | H.O.T | H.O.P | H.O.LT | H.O.SC | Avg |
 |:---:   |:---: |:---: |:---: |:---:  |:---:   |:---:  |:---:   |:---:   |:---: |
@@ -79,7 +80,7 @@ Results
 
 <div align="center">
 <b>Table 3:</b> Few-shot concept learning on Bongard-LOGO. 
-<div style="height: 10px;"></div>
+<div style="height: 20px;"></div>
 
 | Methods | Model size | Learning type | FF | BA | CM | NV | Avg |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -97,7 +98,7 @@ Results
 
 <center>
 <p align="center">
-<img src="figures/h_vs_m.png" width=550 height=250>
+<img src="figures/h_vs_m.png" width=600 height=275>
 </p>
 </center>
 
