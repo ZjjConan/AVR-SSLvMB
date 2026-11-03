@@ -47,8 +47,6 @@ Results
 
 <div align="center">
 <b>Table 1:</b> In-distribution concept induction on RAVEN, I-RAVEN, RAVEN-FAIR, and PGM-Neutral. 
-</div>
-<br></br>
 
 <div style="font-size: 0.8em;">
  
@@ -58,6 +56,7 @@ Results
 | PRD      | 11.18 M | 37.9 | 55.9 | 54.5 | 34.8 | 45.6 |
 | SSLvMB   | 1.27 M  | **83.8 ± 2.9** | **89.7 ± 2.7** | **91.3 ± 2.4** | **64.4 ± 1.2** | **82.3** |
 
+</div>
 </div>
 
 -----
