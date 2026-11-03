@@ -57,55 +57,12 @@ Results
 
 </div>
 
-<table align="center">
-  <caption><b>Table 1:</b> In-distribution concept induction on RAVEN, I-RAVEN, RAVEN-FAIR, and PGM-Neutral.</caption>
-  <thead>
-    <tr>
-      <th align="center">Datasets</th>
-      <th align="center">Model Size</th>
-      <th align="center">RAVEN</th>
-      <th align="center">I-RAVEN</th>
-      <th align="center">RAVEN-FAIR</th>
-      <th align="center">PGM-Neutral</th>
-      <th align="center">Avg</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td align="center">NCD</td>
-      <td align="center">11.24 M</td>
-      <td align="center">37.0</td>
-      <td align="center">48.2</td>
-      <td align="center">56.0</td>
-      <td align="center">47.6</td>
-      <td align="center">47.2</td>
-    </tr>
-    <tr>
-      <td align="center">PRD</td>
-      <td align="center">11.18 M</td>
-      <td align="center">37.9</td>
-      <td align="center">55.9</td>
-      <td align="center">54.5</td>
-      <td align="center">34.8</td>
-      <td align="center">45.6</td>
-    </tr>
-    <tr>
-      <td align="center">SSLvMB</td>
-      <td align="center">1.27 M</td>
-      <td align="center"><b>83.8 ± 2.9</b></td>
-      <td align="center"><b>89.7 ± 2.7</b></td>
-      <td align="center"><b>91.3 ± 2.4</b></td>
-      <td align="center"><b>64.4 ± 1.2</b></td>
-      <td align="center"><b>82.3</b></td>
-    </tr>
-  </tbody>
-</table>
 
 -----
 
 <div align="center">
 <b>Table 2:</b> OOD concept generalization on seven PGM subdatasets.
-
+<!---->
 **Int:** Interpolation, **Ext:** Extrapolation, **H.O:** Held-Out, **P:** Pairs, **TP:** TriplePairs, **LT:** LineType, **SC:** ShapeColor
 
 | Method | Model Size | Int | Ext | H.O.TP | H.O.T | H.O.P | H.O.LT | H.O.SC | Avg |
