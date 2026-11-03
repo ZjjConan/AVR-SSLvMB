@@ -45,7 +45,7 @@ Results
 -----------
 
 <div align="center">
-<div style="margin-bottom: 5px;">
+<div style="margin-bottom: 50px;">
     <b>Table 1:</b> In-distribution concept induction on RAVEN, I-RAVEN, RAVEN-FAIR, and PGM-Neutral.
 </div>
 
