@@ -47,6 +47,7 @@ Results
 
 <div align="center">
 <b>Table 1:</b> In-distribution concept induction on RAVEN, I-RAVEN, RAVEN-FAIR, and PGM-Neutral. 
+<div style="height: 10px;"></div>
 
 | Datasets | Model Size | RAVEN | I-RAVEN | RAVEN-FAIR | PGM-Neutral | Avg |
 |:---:     |:---:       |:---:  |:---:    |:---:       |:---:        |:---:      | 
@@ -60,10 +61,8 @@ Results
 
 <div align="center">
 <b>Table 2:</b> OOD concept generalization on seven PGM subdatasets.
-
-<small>
-
-Int: Interpolation, Ext: Extrapolation, H.O: Held-Out, P: Pairs, TP: TriplePairs, LT: LineType, SC: ShapeColor
+**Int:** Interpolation, **Ext:** Extrapolation, **H.O:** Held-Out, **P:** Pairs, **TP:** TriplePairs, **LT:** LineType, **SC:** ShapeColor
+<div style="height: 10px;"></div>
 
 | Method | Model Size | Int | Ext | H.O.TP | H.O.T | H.O.P | H.O.LT | H.O.SC | Avg |
 |:---:   |:---: |:---: |:---: |:---:  |:---:   |:---:  |:---:   |:---:   |:---: |
@@ -71,18 +70,16 @@ Int: Interpolation, Ext: Extrapolation, H.O: Held-Out, P: Pairs, TP: TriplePairs
 | PRD | 11.18 M | 31.5 | 12.7 | 28.1 | 18.6 | 25.2 | 14.1  | 12.8 | 20.4 |
 | **SSLvMB** | 1.27 M | **62.1±3.1** | 15.6±0.7 | **43.0±0.9** | **28.6±1.7** | **32.4±2.1** | **21.7±2.1** | 12.6±0.1 | **30.9** |
 
-</small>
-
-**Correction Note:** In our published paper, the corresponding data for **H.O.LT** and **H.O.P** (across all methods) are inadvertently reversed and should be swapped.
 </div>
+**Correction Note:** In our published paper, the corresponding data for **H.O.LT** and **H.O.P** (across all methods) are inadvertently reversed and should be swapped.
+
 
 
 -----
 
 <div align="center">
 <b>Table 3:</b> Few-shot concept learning on Bongard-LOGO. 
-
-<small>
+<div style="height: 10px;"></div>
 
 | Methods | Model size | Learning type | FF | BA | CM | NV | Avg |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -93,7 +90,6 @@ Int: Interpolation, Ext: Extrapolation, H.O: Held-Out, P: Pairs, TP: TriplePairs
 | SVM-Mimic | 9.89 M | Supervised | 73.3±0.3 | 84.3±0.8 | 69.4±0.8 | **74.2±0.3** | 75.3 |
 | **SSLvMB** | 1.27 M | Self-supervised | **75.6±0.3** | **93.5±0.7** | **72.7±1.1** | 71.4±0.6 | **78.3** |
 
-</small>
 </div>
 
 -----
