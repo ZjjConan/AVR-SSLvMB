@@ -47,8 +47,7 @@ Results
 
 <div align="center">
 <b>Table 1:</b> In-distribution concept induction on RAVEN, I-RAVEN, RAVEN-FAIR, and PGM-Neutral. 
-
-<div style="margin-top: 15px;"></div>
+<br>
 
 | Datasets | Model Size | RAVEN | I-RAVEN | RAVEN-FAIR | PGM-Neutral | Avg |
 |:---:     |:---:       |:---:  |:---:    |:---:       |:---:        |:---:      | 
